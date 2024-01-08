@@ -1,8 +1,8 @@
 .navbar {
-  display: fixed;
+  display: flex;
   background-color: #a2cde1;
   padding: 1rem;
-  position: top;
+  position: static;
   top: 0;
   justify-content: space-between;
 
@@ -11,4 +11,10 @@
   z-index: 1;
   margin-bottom: 1rem;
   font-style: italic;
+}
+
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
 }

@@ -9,6 +9,7 @@ import Operation from "./components/Operation";
 import Engineering from "./components/Engineering";
 import Patents from "./components/Patents";
 import Buy from "./components/Buy";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,6 +26,7 @@ function App() {
         <Route path="/patents" element={<Patents />} />
         <Route path="/buy" element={<Buy />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
