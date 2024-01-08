@@ -1,20 +1,18 @@
-.navbar {
+#navbar {
   display: flex;
-  background-color: #a2cde1;
-  padding: 1rem;
-  position: static;
+  background-color: #000000;
+  padding: 0;
+  position: fixed;
   top: 0;
-  justify-content: space-between;
+  align-items: center;
 
-  box-shadow: 1px 1px 1px 1px;
-  border-radius: 6px;
-  z-index: 1;
-  margin-bottom: 1rem;
   font-style: italic;
 }
 
-.footer {
+#footer {
+  font-style: italic;
   display: flex;
   position: fixed;
   bottom: 0;
+  background-color: aqua;
 }

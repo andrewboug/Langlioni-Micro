@@ -16,8 +16,9 @@ export default function Navbar() {
   );
 }
 
-//make nav bar and footer stick in place
+//make nav bar and footer stick in place, make it so the body doesnt overlap with either
 //add text and video embedding into components
 //add hyperlinks to pdf files for patents
 //add video thumbnail buttons to homepage
 //styling and functionality
+//pizza svg for address bar
