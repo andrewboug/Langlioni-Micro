@@ -15,3 +15,9 @@ export default function Navbar() {
     </div>
   );
 }
+
+//make nav bar and footer stick in place
+//add text and video embedding into components
+//add hyperlinks to pdf files for patents
+//add video thumbnail buttons to homepage
+//styling and functionality
