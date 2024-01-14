@@ -1,8 +1,18 @@
-//video
-export default function What() {
+import React from "react";
+import ReactPlayer from "react-player";
+
+const What = () => {
   return (
-    <div id="what">
-      <h1 className="text">The what component</h1>
+    <div>
+      <h1>What?!</h1>
+      <iframe
+        src="https://drive.google.com/file/d/1NvVFQAlKjlVE76WjiKKNkdq2mBcHWeol/preview"
+        width="640"
+        height="480"
+        allow="autoplay"
+      ></iframe>
     </div>
   );
-}
+};
+
+export default What;

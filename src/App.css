@@ -2,7 +2,7 @@
   display: flex;
   background-color: #000000;
   padding: 0;
-  position: fixed;
+  position: sticky;
   top: 0;
   align-items: center;
 
@@ -12,7 +12,7 @@
 #footer {
   font-style: italic;
   display: flex;
-  position: fixed;
+  position: sticky;
   bottom: 0;
-  background-color: aqua;
+  background-color: rgb(0, 0, 0);
 }

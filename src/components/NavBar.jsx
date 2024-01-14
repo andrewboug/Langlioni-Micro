@@ -3,7 +3,7 @@ export default function Navbar() {
   const nav = useNavigate();
 
   return (
-    <div id="navbar">
+    <nav id="navbar">
       <h1 className="text">Langlioni Micro</h1>
       <h2 className="text">The world's most advanced pizza oven</h2>
       <button onClick={() => nav("/what")}>What?</button>
@@ -12,7 +12,7 @@ export default function Navbar() {
       <button onClick={() => nav("/engineering")}>Engineering/Protoypes</button>
       <button onClick={() => nav("/patents")}>Patents</button>
       <button onClick={() => nav("/buy")}>Buy an Oven</button>
-    </div>
+    </nav>
   );
 }
 
