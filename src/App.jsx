@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
-import Navbar from "./components/NavBar";
 import What from "./components/What";
 import Home from "./components/Home";
 import Intro from "./components/Intro";
@@ -9,6 +8,8 @@ import Operation from "./components/Operation";
 import Engineering from "./components/Engineering";
 import Patents from "./components/Patents";
 import Buy from "./components/Buy";
+import StartPage from "./components/StartPage";
+import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<StartPage />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/what" element={<What />} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/operation" element={<Operation />} />
