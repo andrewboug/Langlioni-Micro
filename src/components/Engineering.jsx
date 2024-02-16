@@ -1,7 +1,10 @@
 export default function Engineering() {
   return (
     <div id="engineering">
-      <h1 className="text">The Engineering and Prototypes component</h1>
+      <div className="section">
+        {" "}
+        <h1 className="text">Engineering and Prototypes</h1>
+      </div>
     </div>
   );
 }

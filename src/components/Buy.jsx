@@ -1,7 +1,10 @@
 export default function Buy() {
   return (
     <div id="buy">
-      <h1 className="text">The Buy component</h1>
+      <div className="section">
+        {" "}
+        <h1 className="text">Buy an Oven!</h1>
+      </div>
       <button>Click here to get your Langlioni Micro!</button>
     </div>
   );

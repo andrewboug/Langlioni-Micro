@@ -9,14 +9,6 @@
   font-style: italic;
 }
 
-#footer {
-  font-style: italic;
-  display: flex;
-  position: sticky;
-  bottom: 0;
-  background-color: rgb(0, 0, 0);
-}
-
 #startVideo {
   height: 80%;
   width: 100%;
@@ -24,6 +16,7 @@
 
   top: 100px;
   z-index: 1;
+  border: none;
 }
 
 #starthome {
@@ -42,4 +35,35 @@
   color: red;
   left: 40%;
   font-style: italic;
+}
+p {
+  text-align: center;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  position: sticky;
+  bottom: 0;
+  background-color: rgb(0, 0, 0);
 }

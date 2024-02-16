@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
 import "./App.css";
 import What from "./components/What";
-import Home from "./components/Home";
+
 import Intro from "./components/Intro";
 import Operation from "./components/Operation";
 import Engineering from "./components/Engineering";
@@ -20,7 +20,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<StartPage />} />
-        <Route path="/home" element={<Home />} />
+
         <Route path="/what" element={<What />} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/operation" element={<Operation />} />
