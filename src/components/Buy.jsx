@@ -5,7 +5,18 @@ export default function Buy() {
         {" "}
         <h1 className="text">Buy an Oven!</h1>
       </div>
-      <button>Click here to get your Langlioni Micro!</button>
+      <div className="body-container">
+        <p>
+          Though we have no ovens to sell currently, we are actively recruiting
+          a manufacturing partner to produce our oven. We are interested in
+          speaking with anyone who would like to invest in this venture. We are
+          actively recruiting oven buyers. If you have any interest, please
+          contact us at{" "}
+          <a href="mailto:johnlangley@langlioni.com">
+            johnlangley@langlioni.com
+          </a>
+        </p>
+      </div>
     </div>
   );
 }

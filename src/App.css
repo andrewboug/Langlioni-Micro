@@ -1,41 +1,3 @@
-#navbar {
-  display: flex;
-  background-color: #000000;
-  padding: 0;
-  position: sticky;
-  top: 0;
-  align-items: center;
-
-  font-style: italic;
-}
-
-#startVideo {
-  height: 80%;
-  width: 100%;
-  position: absolute;
-
-  top: 100px;
-  z-index: 1;
-  border: none;
-}
-
-#starthome {
-  z-index: 2;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  left: 40%;
-  padding: 20px;
-}
-
-#starttext {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  color: red;
-  left: 40%;
-  font-style: italic;
-}
 p {
   text-align: center;
 }
@@ -58,7 +20,7 @@ p {
   align-items: center;
 }
 
-.footer {
+.footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,4 +28,48 @@ p {
   position: sticky;
   bottom: 0;
   background-color: rgb(0, 0, 0);
+  border-style: dashed;
+  border-color: red;
+}
+
+#navbar-container {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 0;
+  border-style: dashed;
+  border-color: red;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  font-style: italic;
+}
+
+.nav-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0;
+}
+.nav-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.body {
+  color: white;
+}
+
+.body-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

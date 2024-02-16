@@ -8,7 +8,7 @@ import Operation from "./components/Operation";
 import Engineering from "./components/Engineering";
 import Patents from "./components/Patents";
 import Buy from "./components/Buy";
-import StartPage from "./components/StartPage";
+
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 
@@ -19,9 +19,7 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<StartPage />} />
-
-        <Route path="/what" element={<What />} />
+        <Route path="/" element={<What />} />
         <Route path="/intro" element={<Intro />} />
         <Route path="/operation" element={<Operation />} />
         <Route path="/engineering" element={<Engineering />} />
