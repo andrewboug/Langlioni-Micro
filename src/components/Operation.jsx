@@ -11,7 +11,6 @@ export default function Operation() {
             src="https://drive.google.com/file/d/1igFJDyKMBAhxDiMVEZlrlvxVTslIDeP-/preview"
             width="640"
             height="480"
-            allow="autoplay"
           ></iframe>
         </div>
         <div className="video-container">
@@ -19,7 +18,6 @@ export default function Operation() {
             src="https://drive.google.com/file/d/1PBu6qnbPFMouh0rAxv36zRnzeKLLRiLK/preview"
             width="640"
             height="480"
-            allow="autoplay"
           ></iframe>
         </div>
       </div>

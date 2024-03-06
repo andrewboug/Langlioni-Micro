@@ -10,7 +10,6 @@ export default function Patents() {
           src="https://drive.google.com/file/d/1ilaI2qaIV45qYihaUViQ60Ym8vO3GyPT/preview"
           width="640"
           height="480"
-          allow="autoplay"
         ></iframe>
       </div>
     </div>

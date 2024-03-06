@@ -1,9 +1,9 @@
-export default function Buy() {
+export default function Contact() {
   return (
     <div id="buy">
       <div className="section">
         {" "}
-        <h1 className="text">Buy an Oven!</h1>
+        <h1 className="text">Contact Us</h1>
       </div>
       <div className="body-container">
         <p>

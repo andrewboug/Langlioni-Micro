@@ -17,7 +17,7 @@ export default function Navbar() {
           Engineering/Protoypes
         </button>
         <button onClick={() => nav("/patents")}>Patents</button>
-        <button onClick={() => nav("/buy")}>Buy an Oven</button>
+        <button onClick={() => nav("/contact")}>Contact Us</button>
       </div>
     </div>
   );

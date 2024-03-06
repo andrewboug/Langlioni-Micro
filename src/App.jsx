@@ -7,10 +7,10 @@ import Intro from "./components/Intro";
 import Operation from "./components/Operation";
 import Engineering from "./components/Engineering";
 import Patents from "./components/Patents";
-import Buy from "./components/Buy";
 
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,7 +24,7 @@ function App() {
         <Route path="/operation" element={<Operation />} />
         <Route path="/engineering" element={<Engineering />} />
         <Route path="/patents" element={<Patents />} />
-        <Route path="/buy" element={<Buy />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

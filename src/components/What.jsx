@@ -12,7 +12,6 @@ const What = () => {
           src="https://drive.google.com/file/d/1NvVFQAlKjlVE76WjiKKNkdq2mBcHWeol/preview"
           width="640"
           height="480"
-          allow="autoplay"
         ></iframe>
       </div>
       <div className="body">
