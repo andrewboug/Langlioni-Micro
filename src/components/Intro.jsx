@@ -11,6 +11,7 @@ export default function Intro() {
             src="https://drive.google.com/file/d/10LQwEX4yOnK6SmWu_ajNx-tnDPCRIAs5/preview"
             width="640"
             height="480"
+            allowFullScreen
           ></iframe>
         </div>
         <p>

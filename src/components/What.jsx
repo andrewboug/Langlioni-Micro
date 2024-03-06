@@ -8,10 +8,11 @@ const What = () => {
       </div>
       <div className="video-container">
         <iframe
-          className="video"
-          src="https://drive.google.com/file/d/1NvVFQAlKjlVE76WjiKKNkdq2mBcHWeol/preview"
+          src="https://drive.google.com/file/d/1gG_nlvx_s4SUdFLuE1CyuiUMe6_WHO7h/preview"
           width="640"
           height="480"
+          allow="autoplay"
+          allowFullScreen
         ></iframe>
       </div>
       <div className="body">

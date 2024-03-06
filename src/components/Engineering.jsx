@@ -12,6 +12,7 @@ export default function Engineering() {
             src="https://drive.google.com/file/d/1vWCR7mMIlN2zn-sv2dkH7zR7YaieGySw/preview"
             width="640"
             height="480"
+            allowFullScreen
           ></iframe>
         </div>
         <h1>Prototype #2</h1>
@@ -20,6 +21,7 @@ export default function Engineering() {
             src="https://drive.google.com/file/d/1XFxM9a4Li-PsJzTbsgWl6kqUi0ahhuGe/preview"
             width="640"
             height="480"
+            allowFullScreen
           ></iframe>
         </div>
         <h1>Prototype #3</h1>
@@ -28,6 +30,7 @@ export default function Engineering() {
             src="https://drive.google.com/file/d/1_8z-xL60tu-NkexOC65aSaO2O-xuhnkH/preview"
             width="640"
             height="480"
+            allowFullScreen
           ></iframe>
         </div>
       </div>
