@@ -11,10 +11,7 @@ export default function Contact() {
           a manufacturing partner to produce our oven. We are interested in
           speaking with anyone who would like to invest in this venture. We are
           actively recruiting oven buyers. If you have any interest, please
-          contact us at{" "}
-          <a href="mailto:johnlangley@langlioni.com">
-            johnlangley@langlioni.com
-          </a>
+          contact us <a href="mailto:johnlangley70131@gmail.com">here</a>
         </p>
       </div>
     </div>

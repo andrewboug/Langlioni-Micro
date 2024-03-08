@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="nav-buttons">
         <button onClick={() => nav("/")}>What?</button>
         <button onClick={() => nav("/intro")}>Introduction</button>
-        <button onClick={() => nav("/operation")}>Operation Demo</button>
+        <button onClick={() => nav("/culinary")}>Culinary</button>
         <button onClick={() => nav("/engineering")}>
           Engineering/Protoypes
         </button>

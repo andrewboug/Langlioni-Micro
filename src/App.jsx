@@ -4,13 +4,14 @@ import "./App.css";
 import What from "./components/What";
 
 import Intro from "./components/Intro";
-import Operation from "./components/Operation";
+
 import Engineering from "./components/Engineering";
 import Patents from "./components/Patents";
 
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Culinary from "./components/Culinary";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<What />} />
         <Route path="/intro" element={<Intro />} />
-        <Route path="/operation" element={<Operation />} />
+        <Route path="/culinary" element={<Culinary />} />
         <Route path="/engineering" element={<Engineering />} />
         <Route path="/patents" element={<Patents />} />
         <Route path="/contact" element={<Contact />} />

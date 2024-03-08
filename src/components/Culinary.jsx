@@ -1,9 +1,9 @@
-export default function Operation() {
+export default function Culinary() {
   return (
     <div id="operation">
       <div className="body-container">
         <div className="section">
-          <h1 className="text">Operation Demo</h1>
+          <h1 className="text"> Culinary</h1>
         </div>
 
         <p>Watch the Langlioni Micro in action!</p>
