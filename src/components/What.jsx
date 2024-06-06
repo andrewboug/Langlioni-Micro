@@ -1,5 +1,5 @@
 import React from "react";
-
+//TO DO: put text in paragraph style dimensions with margins; collate pdfs and try to make the background pop//
 const What = () => {
   return (
     <div>
