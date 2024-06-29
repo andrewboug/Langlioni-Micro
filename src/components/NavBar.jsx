@@ -11,6 +11,7 @@ export default function Navbar() {
       </div>
       <div className="nav-buttons">
         <button onClick={() => nav("/")}>What?</button>
+        <button onClick={() => nav("/party")}>Pizza Party!</button>
         <button onClick={() => nav("/intro")}>Introduction</button>
         <button onClick={() => nav("/culinary")}>Culinary</button>
         <button onClick={() => nav("/engineering")}>
