@@ -6,7 +6,7 @@ export default function PizzaParty() {
       </div>
       <div className="video-container">
         <iframe
-          src="https://drive.google.com/file/d/1QS9K9tEHL9DVZ25ld2qKFcY1quxOB2Dw/preview"
+          src="https://drive.google.com/file/d/1Af72mWeknRd8IzN7jJIINEZ7jXqL2k6y/preview"
           width="640"
           height="480"
           allow="autoplay"
